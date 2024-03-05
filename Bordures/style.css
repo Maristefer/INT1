@@ -1,0 +1,35 @@
+
+.border-solid {
+    border: #800080 5px solid;
+    /*border-color: #800080;
+    border-width: 5px;
+    border-style: solid;
+    */
+}
+
+.border-dotted {
+    border: #ff0000 5px dotted;
+}
+
+.border-dashed {
+    border: green 5px dashed;
+}
+
+.border-double {
+    border: #ff69b4 5px double;
+}
+
+.border-left {
+    border-left: orange 5px solid;
+}
+
+.border-angle-arrondi {
+    border: salmon 5px solid;
+    border-radius: 10px;
+}
+
+.img-cat {
+    width: 400px;
+    height: auto;
+    border-radius: 50%;
+}

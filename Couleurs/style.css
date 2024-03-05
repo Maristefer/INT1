@@ -1,0 +1,48 @@
+span {
+    
+    font-weight: bold;
+}
+
+.txt-orange {
+    
+    color: orange;
+}
+
+.hex-red {
+    
+    color: #d23100;
+}
+
+.hex-blue{
+    color: #34e;/*Contraction de #3344ee*/
+}
+
+.txt-rgb {
+    color:rgb(120,0,120);
+}
+
+.txt-hsl {
+    color: hsl(315, 73.3%, 47%);
+}
+
+.fond-black {
+    background-color: black;
+    color: white;
+}
+
+.fond-red {
+    background-color: red;
+}
+
+.rgba {
+    background-color: rgba(255, 0, 0, 0.5);
+}
+
+.hsla {
+    background-color: hsla(0, 100%, 50%, 0.5);
+}
+
+.opacity {
+    background-color: red;
+    opacity: 0.5;
+}
