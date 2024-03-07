@@ -1,0 +1,51 @@
+@font-face {
+    font-family: 'Muli';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Muli/Muli-Regular.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Muli';
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/Muli/Muli-Bold.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Muli';
+    font-weight: normal;
+    font-style: italic;
+    src: url(../fonts/Muli/Muli-Italic.ttf) format("truetype");
+}
+
+@font-face {
+    font-family: 'Muli';
+    font-weight: bold;
+    font-style: italic;
+    src: url(../fonts/Muli/Muli-BoldItalic.ttf) format("truetype");
+}
+
+body{
+    font-family: "Muli", sans-serif;/* Sans-serif à mettre par defaut*/
+    
+}
+
+h1, h2, h3 {
+    font-family: "barriecito", cursive;
+}
+
+/* Font Awesome */
+.fa-facebook-square {
+	color: #4267B2;
+}
+.fa-twitter-square {
+	color: #1da1f2;
+}
+.fa-youtube {
+	color: #FF0000;
+}
+.fa-apple {
+	color: #555;
+}
+

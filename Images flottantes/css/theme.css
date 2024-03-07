@@ -1,0 +1,12 @@
+.img-left {
+    float: left;
+}
+
+.clear {/*pour arrêter l'effet du flot left*/
+    
+    clear: both;
+}
+
+.img-right {
+    float: right;
+}
