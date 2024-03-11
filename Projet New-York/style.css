@@ -1,0 +1,96 @@
+/**********************************
+Généralités
+***********************************/
+
+html{
+    font-size: 62.5%;/*Ramène  à 10px la police par défaut*/
+}
+
+body {
+    max-width: 980px; /*largeur max de la page*/
+    margin: auto; /* centrer horizonalement ma page*/
+    font-size: 14px;
+}
+
+
+.img-nav, h1, h2, h3 {
+    text-align: center;
+}
+
+h1, h3, .menu, .cite-block {
+    font-family: Courgette;
+    color: #003884;
+    font-weight: 600;
+    
+}
+
+h1 {
+    font-size: 4rem;
+}
+
+h2 {
+    font-size: 3.5rem;
+}
+
+
+
+.cite-block {
+    text-align: center;
+    background-color: #d7e1ef;
+    
+}
+
+.menu > li > a {
+    font-size: 2rem;
+    text-decoration: none;
+}
+
+
+.citation-b, h3 {
+    font-size: 2.5rem;
+}
+
+.symboles, .liberty, .geographie, .demo {
+    color: #444;
+    font-family: sans-serif;
+    line-height: 1.5;
+}
+
+.geographie {
+    clear: both;
+}
+
+h2 {
+    color: #4f89b9;
+    font-family: Courgette;
+}
+
+strong, em {
+    color: #003884;
+}
+
+.img-flag, .pont {
+    float: right;
+    margin-left: 10px;
+}
+.img-statue, .img-taxi {
+    float: left;
+    margin-right: 10px;
+}
+
+/**********footer**********/
+.footer {
+    text-align: center;
+    font-family: sans-serif;
+}
+
+.fa-brands {
+      color: #003884;
+      font-size: 3rem;
+}
+
+.reseau-sociaux {
+    
+    border-top: 2px solid #003884;
+    padding-top: 20px;
+}

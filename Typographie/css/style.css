@@ -1,0 +1,90 @@
+/**********************Font-Face********************/
+@font-face {
+    font-family: 'cardo';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/cardo/cardo-regular.woff) format("truetype");
+}
+
+@font-face {
+    font-family: 'cardo';
+    font-weight: bold;
+    font-style: normal;
+    src: url(../fonts/cardo/cardo-bold.woff) format("truetype");
+}
+
+@font-face {
+    font-family: 'cardo';
+    font-weight: normal;
+    font-style: italic;
+    src: url(../fonts/cardo/cardo-italic.woff) format("truetype");
+}
+
+
+@font-face {
+    font-family: 'specialelite';
+    font-weight: normal;
+    font-style: normal;
+    src: url(../fonts/Specialelite/SpecialElite.woff) format("truetype");
+}
+
+/************************Généralités*************************************/
+
+body {
+    
+    max-width: 420px;
+    margin: auto;
+    line-height: 1.5;
+}
+
+/*********************body****************************/
+
+h1 {
+    font-family: cardo;
+    font-size: 4em;
+    text-align: center;
+    line-height: 2;
+    text-transform: uppercase;
+}
+
+h2 {
+    font-family: cardo;
+    font-size: 2.5em;
+    line-height: 1.2;
+    text-transform: uppercase;
+    
+}
+h3 {
+    font-size: 1.5em;
+    line-height: 1;
+}
+
+.cite-block {
+     white-space: pre;
+     font-style: italic;
+}
+
+.border-paragraphe {
+    border-bottom:1px solid black;
+    padding-bottom: 10px;
+}
+
+q {
+    font-style: italic;
+}
+.lettre-maj:first-letter {
+    font-size: 3em;
+    font-family: 'SpecialElite', serif;
+    text-indent: 1em;
+   
+   /*white-space: pre;
+    overflow: hidden;*/
+}
+
+sub {
+     vertical-align: bottom;
+}
+
+span {
+    border-bottom: 1px dashed black;
+}
