@@ -6,64 +6,97 @@ html{
     font-size: 62.5%;/*Ramène  à 10px la police par défaut*/
 }
 
-body {
+.container {
+    
     max-width: 980px; /*largeur max de la page*/
     margin: auto; /* centrer horizonalement ma page*/
-    font-size: 14px;
 }
 
+body {
+    font-family: sans-serif;
+    color: #444;
+    font-size: 1.8rem;
+    line-height: 1.5;
+}
 
-.img-nav, h1, h2, h3 {
+h1,
+h2,
+h3, 
+.nav-menu, 
+.cite-block {
+    
+    font-family: Courgette;
+}
+
+/**************************************
+        Entête (header)
+**************************************/
+
+.header {
+    
     text-align: center;
 }
 
-h1, h3, .menu, .cite-block {
-    font-family: Courgette;
-    color: #003884;
-    font-weight: 600;
-    
-}
-
 h1 {
+    
+    text-transform: uppercase;
+    color: #003884;
     font-size: 4rem;
 }
 
-h2 {
-    font-size: 3.5rem;
+.nav-menu {
+    
+    color: #003884;
+    font-weight: 600;
+    text-align: left;
 }
 
+.nav-menu a {
+    
+    font-size: 2rem;
+    text-decoration: none;
+}
 
+/*************************************
+            contenu principal (main)
+**************************************/
+
+h2 {
+    font-size: 3.5rem;
+    color: #4f89b9;
+    text-align: center;
+     font-weight: 600;
+}
+
+h3 {
+    color: #003884;
+    font-weight: 600;
+    text-align: center;
+    font-size: 2.5rem;
+}
 
 .cite-block {
     text-align: center;
     background-color: #d7e1ef;
     
-}
-
-.menu > li > a {
-    font-size: 2rem;
-    text-decoration: none;
+    
 }
 
 
-.citation-b, h3 {
+.citation-b {
     font-size: 2.5rem;
 }
 
 .symboles, .liberty, .geographie, .demo {
     color: #444;
-    font-family: sans-serif;
+    
     line-height: 1.5;
 }
 
-.geographie {
+.clear {
     clear: both;
 }
 
-h2 {
-    color: #4f89b9;
-    font-family: Courgette;
-}
 
 strong, em {
     color: #003884;
@@ -78,10 +111,17 @@ strong, em {
     margin-right: 10px;
 }
 
-/**********footer**********/
+/************************
+        Footer
+*************************/
 .footer {
     text-align: center;
     font-family: sans-serif;
+}
+
+.copyright> a{
+	color: black;
+	text-decoration: underline;
 }
 
 .fa-brands {
